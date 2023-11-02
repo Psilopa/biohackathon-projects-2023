@@ -25,9 +25,9 @@
             "description": "Four digit year in which the name was published in"
         },
         "taxonNameBrackets": {
-            "type": "string",
+            "type": "boolean",
             "title": "Taxon Name Brackets",
-            "description": "Full taxon name with author and date, as it appeared in the first publication"
+            "description": "True if Author, year should be wrapper in brackets: (Author, year)"
         }
     },
     "required": [
